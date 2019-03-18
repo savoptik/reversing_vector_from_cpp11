@@ -7,9 +7,15 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    vector<int> v;
+    for (int i = 0; i < 10; i++) v.push_back(i);
+    reverse(v.begin(), v.end());
+    for (auto x : v) cout << x << " ";
+    cout << endl;
     return 0;
 }

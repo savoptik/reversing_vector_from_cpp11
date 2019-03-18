@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		FE0698F4223FE8BF00046F2B /* reversing_vector_from_cpp11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = reversing_vector_from_cpp11; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0698F7223FE8BF00046F2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FE0698FE223FE9D600046F2B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		FE0698EB223FE8BF00046F2B = {
 			isa = PBXGroup;
 			children = (
+				FE0698FE223FE9D600046F2B /* README.md */,
 				FE0698F6223FE8BF00046F2B /* reversing_vector_from_cpp11 */,
 				FE0698F5223FE8BF00046F2B /* Products */,
 			);
